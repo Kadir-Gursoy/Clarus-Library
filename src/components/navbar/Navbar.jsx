@@ -1,8 +1,16 @@
 import React from 'react'
+import { menuIcon } from '../../helper/iconData'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <Nav>
+      <Logo>Clarus Library</Logo>
+      <HamburgerIcon>
+        {menuIcon}
+      </HamburgerIcon>
+      <MenuLink>Home</MenuLink>
+    </Nav>
+   
   )
 }
 
